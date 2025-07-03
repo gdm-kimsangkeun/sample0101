@@ -1,0 +1,70 @@
+/* KoPubWorldDotum */
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../font/KoPubWorldDotumLight.woff2') format('woff2'),
+        url('../font/KoPubWorldDotumLight.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../font/KoPubWorldDotumMedium.woff2') format('woff2'),
+        url('../font/KoPubWorldDotumMedium.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'KoPubWorldDotum';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../font/KoPubWorldDotumBold.woff2') format('woff2'),
+        url('../font/KoPubWorldDotumBold.woff') format('woff');
+    font-display: swap;
+}
+
+/* KoPubWorldBatang */
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    font-weight: 300;
+    font-style: normal;
+    src: url('../font/KoPubWorldBatangLight.woff2') format('woff2'),
+        url('../font/KoPubWorldBatangLight.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    font-weight: 500;
+    font-style: normal;
+    src: url('../font/KoPubWorldBatangMedium.woff2') format('woff2'),
+        url('../font/KoPubWorldBatangMedium.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'KoPubWorldBatang';
+    font-weight: 700;
+    font-style: normal;
+    src: url('../font/KoPubWorldBatangBold.woff2') format('woff2'),
+        url('../font/KoPubWorldBatangBold.woff') format('woff');
+    font-display: swap;
+}
+/* Noto Serif KR */
+@font-face {
+    font-family: 'NotoSerifKR-Regular';
+    src: url('../font/NotoSerifKR-Regular.woff2') format('woff2'),
+        url('../font/NotoSerifKR-Regular.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NotoSerifKR-SemiBold';
+    src: url('../font/NotoSerifKR-SemiBold.woff2') format('woff2'),
+        url('../font/NotoSerifKR-SemiBold.woff') format('woff');
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NotoSerifKR-Bold';
+    src: url('../font/NotoSerifKR-Bold.woff2') format('woff2'),
+        url('../font/NotoSerifKR-Bold.woff') format('woff');
+    font-display: swap;
+}

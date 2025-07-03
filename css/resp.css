@@ -1,0 +1,1186 @@
+
+
+@media screen and (max-width: 2000px) {
+
+
+    .txt_flow p { font-size: 11rem; }
+    .video_cont_sect + .txt_flow { margin-top: -1rem; }
+
+    .scar_tab_sect, .stem_tab_sect, .deformity_tab_cont.nose { margin-top: 20rem; }
+
+    .side_sect .cont.narrow { width: 90%; }
+
+    .side_sect .cont .main_txt {  }
+    .side_sect .cont .main_txt br { display: none; }
+    .side_sect .cont .main_txt + .txt br { display: none; }
+    .side_sect .cont .main_txt + .img_wrap .img_box .txt { word-break: keep-all; }
+    .side_sect .cont .main_txt + .img_wrap .img_box .txt br { display: none; }
+
+    /*.side_sect .cont .num_txt_cont > .wrap > .txt_wrap .txt { word-break: keep-all; }*/
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .txt br:not(.lip_only) { display: none; }
+
+    .side_sect .cont .box_txt_cont .wrap .txt_box { margin-top: 1.5rem; }
+    .side_sect .cont .box_txt_cont .wrap .txt_box .tit + .txt br { display: none; }
+
+
+    .img_box_sect .cont .box .txt_box .tit + .txt { word-break: keep-all; }
+
+    .side_sect .cont .box_ico_cont { width: 100%; }
+    .side_sect .cont .box_ico_cont .wrap .num_tit + .txt_wrap { margin-top: 1.5rem; }
+    .side_sect .cont .box_ico_cont .wrap .txt_box { font-size: 1.6rem; }
+    .side_sect .cont .box_ico_cont .wrap .txt_box .tit + .txt { word-break: keep-all; }
+
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .chk_li { width: 100%; }
+
+    .side_sect.stem_anti .cont .box_ico_cont { grid-auto-rows: minmax(170px, auto); }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.stem_anti { width: 80%; }
+
+    .side_sect .cont .img_box_wrap .tit_box .tit + .txt br { display: none; }
+
+    /*.side_sect .cont .num_txt_cont > .wrap.cir_in,*/
+    /*.side_sect .cont .num_txt_cont > .wrap.wide { grid-template-columns: 40% minmax(0, 1fr); gap: var(--sub_cont_pd3) 7rem; }*/
+
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont { width: 80%; }
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont .box .txt { word-break: keep-all; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+
+    .side_sect .cont_img_wrap .img_box .tit_wrap .txt { word-break: keep-all; }
+
+
+    /*원 그래프 컨텐츠*/
+    .side_sect .cir_map_wrap { width: 90%; }
+    .side_sect .cir_map_wrap .cir_wrap .cir span { font-size: 2.2rem; }
+
+    /*줄기세포 배너*/
+    .side_sect .cont .num_txt_cont .wrap .bg_img { width: 80%; }
+    .side_sect .cont .num_txt_cont .wrap .bg_img.center { width: 60%; }
+
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box { max-width: 80%; }
+
+    /*==========노즈립 소개==========*/
+    .side_sect { gap: 0 10rem; }
+
+    /*원장님 소개*/
+    .img_grid .txt_wrap { width: 80%; }
+
+    /*진료안내/오시는 길*/
+    .side_sect.guide .cont .wrap { grid-template-columns: 22%  minmax(0, 1fr); }
+
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont.col3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .side_sect .cont .num_txt_cont > .wrap .cir_grid .cir .txt_box .step + .txt2 br { display: none; }
+
+    .wide_side_sect .cont.guide_map { grid-template-columns: 36% minmax(0, 1fr) 38%; gap: 5rem 5rem; }
+    .wide_side_sect .cont.guide_map .txt_wrap .wrap .box_wrap .box + .box { margin-left: 3rem; }
+
+    /*하단 배너*/
+    #sub .btm_sect.guarantee { grid-template-columns: 21% minmax(0, 1fr); }
+
+    /*최우식의 특별함*/
+    .sub_tit_wrap .tit.big { font-size: 8rem; }
+
+}
+
+/*1640px - 1241px*/
+@media screen and (max-width: 1640px){
+
+    .sub_tit_wrap .tit,
+    .deformity_top > .tit { font-size: 3.2rem; }
+
+    .sub_top_wrap { margin-bottom: 24rem; }
+    #sub.current_36 .sub_top_wrap { margin-bottom: 0; padding-bottom: 10rem; }
+    .re_container.intro .intro_video_wrap .img { padding-top: 45%; }
+
+    .side_sect { margin: 18rem auto 0; }
+    .side_sect .cont { width: 100%; }
+    .side_sect .cont .num_txt_cont > .wrap { gap: 3rem; }
+
+    .side_sect .cont .box_txt_cont,
+    .side_sect .cont .box_ico_cont { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .side_sect .cont.narrow { width: 100%; }
+
+    .side_sect.cont_wide { gap: 0 3rem; }
+
+    .sub_top .cont { padding-bottom: 3rem; }
+    .sub_top_wrap > .tit { font-size: 4vw; }
+
+    /*==========좌우 컨텐츠==========*/
+    /*메인 텍스트*/
+    .side_sect .cont .main_txt { word-break: keep-all; }
+    .side_sect .cont .main_txt br { display: none; }
+    .side_sect .cont .txt br:not(.mo_only) { display: none; }
+
+
+    /*아이콘 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap { align-items: flex-start; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .ico svg { height: 7rem; }
+
+
+    /*줄기세포 배너*/
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img { width: 100%; }
+
+    /*원 그래프 컨텐츠*/
+    .side_sect .cir_map_wrap .cir_wrap .cir span,
+    .side_sect .cir_map_wrap .cir_wrap + .cir_txt span { font-size: 1.8rem; }
+
+    /*체크리스트 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap { flex-direction: column; }
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .sub_txt { width: 100%; }
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .sub_txt + .chk_li { margin-left: 0; margin-top: 5rem; }
+
+    /*박스 텍스트 컨텐츠*/
+    .side_sect .cont .box_ico_cont .wrap { padding: 3.2rem 2.5rem; }
+
+    /*표 컨텐츠*/
+    .side_sect.stem_anti .tbl_wrap table td .box { width: 100%; }
+
+    /*비교 컨텐츠*/
+    .side_sect .cont .bg_img_compare { gap: 5rem 2rem; }
+
+
+    /*유형별 비교 컨텐츠*/
+    .compare_slide_sect .cont ul li .img_wrap .box { max-width: 50%; }
+
+    /*유튜브 컨텐츠*/
+    .video_cont_sect { padding-top: 24%; }
+
+    /*흐르는 텍스트 컨텐츠*/
+    .txt_flow p { font-size: 12rem; }
+
+    /*하단 배너 컨텐츠*/
+    .deformity_btm_sect .wrap { grid-template-columns: 50% calc(50% - 5rem) }
+
+    /*흉터관리*/
+    .scar_container .side_sect .cont_img_wrap { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    /*노하우*/
+    .knowhow_sect .bg_table_box { transform: unset; }
+
+    /*======노즈립소개======*/
+    .img_grid { gap: 3rem 5rem; }
+    .img_grid .txt_li li .txt br { display: none; }
+
+    .side_sect .cont .num_grid_wrap { gap: 10rem 4rem; }
+
+    .banner_sect > .txt { font-size: 4vw; }
+
+    /*원장님 소개*/
+    .img_grid .txt_wrap .txt span { word-break: keep-all; }
+    .img_grid .txt_wrap .txt span br { display: none; }
+
+    .intro_dr_sect { gap: 0 2rem; }
+
+    /*진료안내/오시는길*/
+    .wide_side_sect .cont.guide_map { grid-template-columns: 33%  minmax(0, 1fr); gap: 0 6rem; }
+    .wide_side_sect .cont.guide_map .wrap .box_wrap { flex-direction: column; }
+    .wide_side_sect .cont.guide_map .wrap .box_wrap .box + .box { margin-left: 0; margin-top: 3rem; }
+
+    /*줄기세포*/
+    .side_sect .cont .num_txt_cont > .wrap.lifting { gap: var(--sub_cont_pd3) 3rem; }
+
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box { max-width: 90%; }
+
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont { width: 100%; gap: 4rem 2rem; }
+
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .vs { font-size: 4.5rem; }
+
+    .stem_count_wrap { gap: 0 2rem; }
+
+    .bg_table_box.type2 .tit { word-break: keep-all; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid.arr .cir { width: calc(100%/4); padding-top: calc(100%/4); }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid .arr { display: none; }
+
+    /*하단배너*/
+    #sub .btm_sect.guarantee { grid-template-columns: 21% minmax(0, 1fr); transform: translateY(-50%); }
+
+
+    .nose_new_video .tit_wrap .txt br { display: none; }
+
+
+}
+
+/*1240px - 769px*/
+@media screen and (max-width: 1240px){
+
+    .community_container,
+    .cautions_sect,
+    .intro_container,
+    .board_view,
+    .non_benefit_wrap,
+    .terms_cont,
+    .mypage_wrap,
+    .allsch_container { padding-bottom: 10rem; }
+
+    /*서브탑*/
+    .sub_top_wrap { margin-bottom: 12rem; }
+    .sub_top_wrap > .tit { font-size: 4.5vw; }
+    .sub_top .in3 { height: 34vh; }
+
+    #sub.current_36 .sub_top_wrap { margin-bottom: 0; padding-bottom: 12rem; }
+
+    /*서브 탭*/
+    .sub_tab .tab + .tab { margin-left: 6rem; }
+
+    /*공통 텍스트*/
+    .sub_tit_wrap .tit { word-break: keep-all; line-height: 1.4; }
+    /*.sub_tit_wrap .tit br { display: none; }*/
+    .sub_tit_wrap .btn_wrap { margin-top: 5rem; }
+
+    .sub_tit_wrap .tit, .deformity_top > .tit { font-size: 3.6rem; }
+
+
+    /*======좌우 컨텐츠 영역======*/
+    .side_sect { margin: 12rem auto 0; }
+    .side_sect .cont.narrow { width: 100%; }
+
+    .side_sect .cont .box_ico_cont .wrap .num { margin-top: 0.2em; }
+
+    .sub_tit_wrap + .cont { margin-top: 6rem; }
+    .sub_tit_wrap .tit.big { font-size: 7rem; }
+    .sub_tit_wrap .txt { word-break: keep-all; }
+    .sub_tit_wrap .txt br { display: none; }
+
+    .img_box_sect .cont .box .txt_box { width: calc(50% - 4rem); }
+
+    /*넘버링 컨텐츠*/
+    .side_sect .cont .main_txt + .num_txt_cont { margin-top: var(--sub_cont_pd3); }
+    .side_sect .cont .num_txt_cont > .wrap { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+    .side_sect .cont .num_txt_cont > .wrap.side { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap .num + .tit br { display: none; }
+
+    .side_sect .cont .img_wrap { margin-top: 2rem; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid { justify-content: center; }
+    .side_sect .cont .num_txt_cont.group > .wrap + .wrap { margin-top: 6rem; }
+
+    /*박스 텍스트 컨텐츠*/
+    .side_sect .cont .box_txt_cont .wrap { padding: 3.5rem 2.5rem; }
+    .side_sect .cont .box_txt_cont .wrap .txt_box { margin-top: 2rem; }
+
+    /*아이콘 컨텐츠*/
+    .side_sect .cont .box_txt_cont .wrap { flex-direction: column; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap { margin-top: 1rem; grid-template-columns: repeat(6, minmax(0, 1fr)); justify-content: space-between; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .ico svg { height: 6.5rem; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .ico + .tit_box { margin-top: 2.5rem; }
+
+    /*원 그래프 컨텐츠*/
+    .side_sect .cir_map_wrap { margin: 0 auto; }
+
+    /*표 컨텐츠*/
+    .side_sect.stem_anti .tbl_wrap table th { padding: 4rem 2rem; }
+    .side_sect.stem_anti .tbl_wrap table td { padding: 4rem; }
+
+    /*이미지 컨텐츠*/
+    .img_box_sect .cont { gap: 0 1.5rem; }
+
+    /*하단 배너 컨텐츠*/
+    .deformity_btm_sect { margin-top: 20rem; padding: 15rem 0 0; }
+    .deformity_btm_sect .wrap { gap: 0 3rem; }
+
+    /*흐르는 텍스트*/
+    .txt_flow p { font-size: 10rem; }
+
+
+    /*=====구순구개열=====*/
+    .deformity_cont .sub_tab { margin-top: 12rem; }
+    .deformity_top .slide_wrap { margin-top: 8rem; }
+    .deformity_top .slide_wrap .item .img + .tit { padding: 0 5px; }
+
+
+    /*======게시판 공통======*/
+    .board_wrap.thumb .board_box { gap: 7rem 2.5rem; }
+    .board_wrap.thumb .board_box .tit { font-size: 2.2rem; }
+
+    .board_wrap.list .board_box .box .tit { font-size: 2.2rem }
+    .board_wrap.list .board_box .box .label { min-width: 10%; }
+
+    .board_wrap + .pagination { margin-top: 10rem; }
+
+    /*유튜브*/
+    .board_wrap.thumb .board_box.youtube { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+    /*수술 전 주의사항*/
+    .cautions_sect .in3 { grid-template-columns:  minmax(0, 1fr); gap: 5rem 0; }
+    .cautions_sect .cont > .tit { margin-bottom: 3rem; }
+    .cautions_sect .cont .txt_wrap .box_txt { margin-top: 30px; }
+    .cautions_sect .cont .txt_wrap .num { margin-top: -0.1em; }
+    .cautions_sect .cont .txt_wrap .box + .box { margin-top: 5rem; }
+
+    /*=====노즈립소개=====*/
+    .img_grid { grid-template-columns: 35%  minmax(0, 1fr); }
+    .img_grid .img_wrap { width: 100%; }
+
+    .side_sect { grid-template-columns:  minmax(0, 1fr); gap: 5rem; }
+    .side_sect .cont .num_grid .num { font-size: 45px; }
+
+    /*원장님 소개*/
+    .intro_dr_sect { grid-template-columns: 25% 30rem  minmax(0, 1fr); }
+
+    /*연혁*/
+    .sub_history_sect .history_wrap { width: 95%;}
+    .sub_history_sect .history_wrap .year { width: 30%; font-size: 7rem; }
+    .sub_history_sect .history_wrap .year span:before { width: calc(100% + 30px); }
+
+    .sub_history_sect .history_wrap .txt_box { width: calc(70% - 4rem); margin-left: 4rem; margin-top: 1rem; }
+
+    /*치료보증제도*/
+    .side_sect.guarantee .cont .li_wrap .tit { font-size: 1.6rem }
+
+    /*진료안내/오시는길*/
+    .wide_side_sect { grid-template-columns: 100%; gap: 3rem 0; }
+    .wide_side_sect .cont.slide { width: 100%; margin-left: 4rem; }
+
+    .side_sect.guide .cont .wrap { gap: 0 5rem; }
+    .side_sect.guide .cont .wrap > .tit { word-break: keep-all; }
+
+    .wide_side_sect .cont.guide_map { grid-template-columns:  minmax(0, 1fr); gap: 2rem 5rem; }
+    .wide_side_sect .cont.guide_map .addr { grid-column: 1 / 4; }
+    .wide_side_sect .cont.guide_map .map { grid-row: 3; }
+
+    /*줄기세포*/
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box { max-width: 100%; }
+
+    .side_sect .cont .num_txt_cont > .wrap.banner { padding: 10rem 0; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid { flex-wrap: wrap; }
+
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img.center { width: 65%; }
+
+    /*유튜브 바로가기 배너*/
+    .video_cont_sect { padding-top: 42%; }
+
+    /*온라인상담 바로가기 배너*/
+    .btm_banner_sect .cont { grid-template-columns: minmax(0, 1fr); }
+    .btm_banner_sect .cont .illu { opacity: 0.4; }
+
+    /*하단배너*/
+    #sub .guarantee_banner { padding-top: 33%; }
+    #sub .guarantee_banner:before { content: ''; position: absolute; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.25); }
+    #sub .btm_sect.guarantee { grid-template-columns: 31% minmax(0, 1fr); }
+
+    .side_sect .cont .num_txt_cont > .wrap.cir_in,
+    .side_sect .cont .num_txt_cont > .wrap.wide { gap: 4rem 6rem; }
+
+    .side_sect .cont .num_txt_cont > .wrap.cir_in .txt_wrap,
+    .side_sect .cont .num_txt_cont > .wrap.wide .txt_wrap { grid-column: 1 / -1; }
+
+    /*유형별 비교 컨텐츠*/
+    .compare_slide_sect .re_in { padding: 0 20px; }
+    .deformity_compare .compare_detail { width: 90%; }
+
+
+    .nose_new_side .cont .txt_wrap .txt_box { margin-top: 9rem; }
+    .nose_new_side .cont .txt_wrap .txt_box + .txt_box { margin-top: 12rem; }
+
+}
+
+/*768px ~ */
+@media screen and (max-width: 768px){
+
+    /*======공통======*/
+
+    /*구순구개열*/
+    .sub_top.parent_2 .bg_img .img { background: url('/inc/img/sub/sub_banner01.jpg') 60%/cover no-repeat; }
+    /*코성형*/
+    .sub_top.parent_6 .bg_img .img { background: url('/inc/img/sub/sub_banner02.jpg') 60%/cover no-repeat; }
+    /*입술인중*/
+    .sub_top.parent_12 .bg_img .img { background: url('/inc/img/sub/sub_banner03.jpg') 60%/cover no-repeat; }
+    /*줄기세포*/
+    .sub_top.parent_15 .bg_img .img { background: url('/inc/img/sub/sub_banner04.jpg') 60%/cover no-repeat; }
+    /*흉터관리*/
+    .sub_top.parent_19 .bg_img .img { background: url('/inc/img/sub/sub_banner05.jpg') 60%/cover no-repeat; }
+    /*비포에프터*/
+    .sub_top.parent_22 .bg_img .img { background: url('/inc/img/sub/sub_banner06.jpg') 60%/cover no-repeat; }
+    /*커뮤니티*/
+    .sub_top.parent_28 .bg_img .img { background: url('/inc/img/sub/sub_banner07.jpg') 60%/cover no-repeat; }
+    /*커뮤니티_리얼스토리*/
+    .sub_top.parent_28.current_31 .bg_img .img { background: url('/inc/img/sub/sub_banner07_1.jpg') 60%/cover no-repeat; }
+
+
+    .current_52 .sub_tit_wrap .tit.top_tit { padding: 0 20px; }
+
+
+    /*lnb*/
+    .sub_top .lnb .home { margin-right: 8px; }
+    .sub_top .lnb .dot { margin: 0 5px; }
+    .sub_top .lnb .nice-select { padding-left: 5px; padding-right: 20px; font-size: 12px; }
+    .sub_top .lnb .nice-select:after { right: 5px; }
+    .sub_top .lnb .nice-select .option { padding-left: 10px; padding-right: 15px; }
+
+    /*서브 탑*/
+    .sub_top_wrap { margin-bottom: 70px; }
+    .sub_top_wrap > .tit { width: 95%; font-size: 28px; line-height: 1.2; padding-top: 10px; }
+    .sub_top .tit_box .tit { line-height: 1.3 }
+    .sub_top .tit_box .tit + .txt { margin-top: 10px; }
+
+    #sub.current_36 .sub_top_wrap { margin-bottom: 0; padding-bottom: 30px; }
+
+    /*노즈립 소개 / 마이페이지 서브 탑*/
+    .sub_top.parent_35 .cont,
+    .sub_top.parent_43 .cont { flex-direction: column; align-items: flex-start; }
+    .sub_top.parent_35 .cont .lnb,
+    .sub_top.parent_43 .cont .lnb { margin-top: 40px; }
+
+    /*버튼 스타일*/
+    .sub_cont_btn { min-width: 155px; height: 50px; line-height: 50px; }
+    .sub_cont_btn.thin { height: 45px; line-height: 45px; }
+    .btm_banner_sect .cont .btn_wrap .sub_cont_btn { min-width: 110px; height: 40px; line-height: 40px; font-size: 12px; }
+    .btm_banner_sect .cont .btn_wrap .sub_cont_btn .ico { width: 12px; height: 12px; margin-left: 9px; }
+
+
+    /*공용 서브 타이틀*/
+    .sub_tit_wrap .tit.big { font-size: 36px; }
+    .sub_tit_wrap .btn_wrap { margin-top: 30px; }
+    .sub_tit_wrap .tit + .txt { margin-top: 8px; }
+    .sub_tit_wrap .txt { font-size: 13px; }
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap + .txt_wrap { margin-top: 5px; }
+
+
+    /*서브 탭*/
+    .sub_tab { width: 100%; padding: 0 20px; overflow: auto; justify-content: flex-start; }
+    .sub_tab::-webkit-scrollbar { display: none; }
+    .sub_tab .tab { display: block; min-width: unset; width: auto; height: 35px; padding: 0 15px; white-space: nowrap; }
+    .sub_tab .tab + .tab { margin-left: 15px; }
+
+    /*인풋 공용*/
+    .inp { height: 45px; line-height: 45px; }
+
+    .scar_tab_sect, .stem_tab_sect, .deformity_tab_cont.nose { margin-top: 100px; }
+
+
+    /*=======좌우컨텐츠=======*/
+    .side_sect { margin: 80px auto 0; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap .num { margin-top: -0.1em; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .txt + * { margin-top: 15px; }
+
+    /*이미지 컨텐츠*/
+    .side_sect .cont .main_txt + .img_wrap .img_box .tit + .txt { font-size: 13px; }
+    .side_sect .cont .main_txt + .num_txt_cont.lifting { margin-top: 0; }
+    .side_sect .cont .num_txt_cont > .wrap { gap: 10px 0; }
+    .side_sect .cont .num_txt_cont > .wrap.side { grid-template-columns: minmax(0, 1fr); }
+    .side_sect .cont .num_txt_cont > .wrap .bg_table_box.type2 { margin-top: 10px; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.col3 { gap: 40px 10px; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.col4 { gap: 40px 10px; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.lift { gap: 2px; }
+
+    .side_sect .cont .num_txt_cont.group > .wrap + .wrap { margin-top: 60px; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap + .txt_wrap { margin-top: 1rem; }
+
+    .side_sect.stem_anti .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap { width: 100%; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap .img_box .tit_box .tit + .txt { font-size: 13px; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .box_li { font-size: 13px; }
+
+
+    /*아이콘 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap { gap: 25px 5px; align-items: flex-start; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .ico { height: 6rem; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .ico + .tit_box { margin-top: 5px; }
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap .ico_box .tit_box .tit + .txt { font-size: 13px; }
+
+    /*박스 텍스트 컨텐츠*/
+    .side_sect .cont .box_txt_cont { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+    .side_sect .cont .box_txt_cont .wrap { padding: 15px 10px; }
+    .side_sect .cont .box_txt_cont .wrap .txt_box { margin-top: 8px; }
+    .side_sect .cont .box_txt_cont .wrap .txt_box .tit { font-size: var(--sub_txt1); }
+    .side_sect .cont .box_txt_cont .wrap .txt_box .tit + .txt { margin-top: 4px; font-size: 13px; }
+    .side_sect .cont .box_txt_cont.deformity_h .wrap { min-height: unset; }
+
+    /*박스 텍스트 아이콘*/
+    .side_sect .cont .box_ico_cont.stem_h { grid-auto-rows: unset; }
+    .side_sect .cont .box_ico_cont .wrap { padding: 20px 20px; box-shadow: unset; min-height: unset; }
+    .side_sect.stem_anti .cont .box_ico_cont_wrap .box_ico_cont.type2 .wrap { min-height: unset; }
+    .side_sect.stem_anti .cont .box_ico_cont { grid-auto-rows: unset; }
+    .side_sect .cont .box_ico_cont_wrap .box_ico_cont .wrap .num_tit.ico { font-size: 3rem; }
+
+    .side_sect .cont .box_ico_cont.wide .wrap { padding: 20px 15px; }
+    .side_sect .cont .box_ico_cont .wrap .num { margin-top: 0.22em; }
+    .side_sect .cont .box_ico_cont .wrap .num_tit + .txt_wrap { margin-top: 8px; }
+    .side_sect .cont .box_ico_cont .wrap .txt_box .tit { font-size: var(--sub_txt1); }
+    .side_sect .cont .box_ico_cont .wrap .txt_box .tit + .txt { margin-top: 4px; }
+
+    .side_sect .cont .num_txt_cont > .wrap.banner { padding: 8rem 0; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img { padding: 0; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img .img_box + .img_box { margin-left: 8px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img .img_box .img { padding-top: 140%; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img .img_box .img img { position: absolute; left: 0; top: 0; width: 100%; height: 100%; object-fit: cover; }
+
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap { margin-top: 40px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box { padding: 2.5rem 2.5rem; background-color: #fff; color: #3c3c3c; border-radius: 2rem; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box + .txt_box { margin-top: 15px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box .num { display: flex; align-items: center; justify-content: center; width: 4.5rem; height: 4.5rem; border-radius: 100%; background-color: var(--blue); color: #fff; font-family: var(--engSerif); font-size: 3.5rem; line-height: 1; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box .num span { margin-top: -0.5rem; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box .tit { margin-top: 3rem; text-align: left; font-size: var(--sub_txt2); font-weight: 600 }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .bg_img + .txt_wrap .txt_box .txt { margin-top: 0.5rem; }
+
+
+    /*박스 이미지 비교 컨텐츠*/
+    .side_sect .cont .img_wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 10px; }
+    .side_sect .cont .img_wrap.col4 { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 30px 10px; }
+    .side_sect .cont .num_txt_cont > .wrap .img_wrap.col4 { gap: 30px 10px; }
+    .side_sect .cont .bg_img_compare { gap: 45px 20px; margin: 25px 0 0; }
+    .side_sect .cont .bg_img_compare .compare_box .box + .txt { margin-top: 5px; }
+    .deformity_tab_cont.philtrum .side_sect .cont .bg_img_compare { gap: 40px 15px; }
+
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .txt + .bg_img { padding: 10px 0 0; }
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img { width: 100%; padding: 20px 0; }
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .img_box .tit { display: flex; align-items: center; justify-content: center; line-height: 1.2; }
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .img_box .tit + .img { margin-top: 10px; }
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .img_box .img + .txt { font-size: 13px; }
+
+    /*체크리스트 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .sub_txt + .chk_li { margin-top: 20px; }
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .chk_li li { flex-direction: column; padding: 15px 3px; }
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .chk_li li .chk { padding: 0; }
+    .side_sect .cont .num_txt_cont > .wrap .chk_li_wrap .chk_li li .txt { margin-left: 0; margin-top: 5px; }
+
+    /*사이드 이미지 컨텐츠*/
+    .side_sect .cont .main_txt + .img_wrap.col4 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 2px; }
+    .side_sect .cont .main_txt + .img_wrap.col4 .img_box { width: 100%; }
+    .side_sect .cont .main_txt + .img_wrap .img_box + .img_box { margin-left: 0; }
+
+    .side_sect .cont .main_txt + .img_wrap { grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 20px; gap: 10px 2px; }
+    .side_sect .cont.narrow .main_txt + .img_wrap { width: 100%; }
+
+    /*원 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid { flex-wrap: wrap; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid .cir .txt_box { height: auto; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid .cir .txt_box .desc { font-size: 11px; }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid .cir .txt_box .txt { font-size: 14px; }
+    .side_sect .cont > .cir_grid .cir { width: 25rem; height: 25rem; }
+
+
+    /*동영상 컨텐츠*/
+    .cont_video_sect .cont { gap: 20px; }
+    .cont_video_sect .cont { grid-template-columns:  minmax(0, 1fr); }
+    .cont_video_sect .cont .txt_wrap { grid-row: 1; }
+
+    /*유형별 비교 컨텐츠*/
+    .compare_slide_sect .top { width: 100%; flex-direction: column; align-items: flex-start; }
+    .compare_slide_sect .top .sub_tit_wrap .tit { font-size: 30px; }
+    .compare_slide_sect .top .more_btn { margin-top: 20px; }
+    .compare_slide_sect .cont ul li { padding: 22px var(--grid_pd); }
+    .compare_slide_sect .cont ul li .tit_wrap .ico { right: -5px; width: 20px; height: 20px; }
+    .compare_slide_sect .cont ul li .tit_wrap .tit_box { justify-content: flex-start; align-items: flex-start; padding-right: 20px; }
+    .compare_slide_sect .cont ul li .tit_wrap .tit_box .tit { font-size: var(--sub_txt2); }
+    .compare_slide_sect .cont ul li .tit_wrap .tit_box .num { margin-top: -0.1em; }
+
+    .compare_slide_sect .cont ul li .img_wrap .box { max-width: 60%; margin: 70px auto 0; }
+    .compare_slide_sect .cont ul li .img_wrap .box.arr .arr { width: 20px; height: 20px; margin: 0 10px; }
+    .compare_slide_sect .cont ul li .img_wrap .box .img_box .desc span { font-size: 1.8rem; height: 3.2rem; line-height: 3.2rem; padding: 0 2rem; }
+
+    .compare_slide_sect .cont ul li .img_wrap .txt_box .cate { font-size: 16px; }
+    .compare_slide_sect .cont ul li .img_wrap .txt_box p { word-break: keep-all; font-size: 13px; }
+    .compare_slide_sect .cont ul li .img_wrap .txt_box p br:not(.mo_only) { display: none; }
+    .compare_slide_sect .cont ul li .img_wrap .txt_box .btn_box .btn + .btn { margin-left: 10px; }
+
+    .deformity_compare { margin-top: 75px; padding-bottom: 30px; }
+    .deformity_compare .main_compare .arr { width: 1.2rem; height: 1.2rem; margin: 0 1rem; }
+    .deformity_compare .main_compare .main_img .tit span { font-size: 1.8rem; height: 3.2rem; line-height: 3.2rem; padding: 0 2rem; }
+
+    .deformity_compare .compare_detail { width: 100%; margin: 10px auto 0 }
+    .deformity_compare .compare_detail .detail_desc { padding: 8px 0; font-size: 11px; }
+    .deformity_compare .compare_detail .detail_img_wrap .arr { width: 1.2rem; height: 1.2rem; margin: 0 1rem; }
+    .deformity_compare .compare_detail .detail_img_wrap .detail_img:first-of-type { width: calc(100%/4 - (4.8rem / 4)); }
+    .deformity_compare .compare_detail .detail_img_wrap .detail_img .tit.type2{transform: translate(-50%, calc(-100% + 8px));}
+    .deformity_compare .compare_detail .detail_img_wrap .detail_img .tit span { font-size: 1.8rem; height: 3.2rem; line-height: 3.2rem; padding: 0 2rem; }
+
+
+    /*하단 배너 컨텐츠*/
+    .deformity_btm_sect { margin-top: 80px; padding: 80px 0 0; }
+    .deformity_btm_sect .wrap { grid-template-columns:  minmax(0, 1fr); gap: 20px; }
+    .deformity_btm_sect .wrap .sub_tit_wrap { grid-row: 2; }
+    .deformity_btm_sect .wrap .cont { grid-row: 1; }
+
+    /*흐르는 텍스트*/
+    .txt_flow { margin-top: -30px; }
+    .txt_flow p { font-size: 45px; }
+
+    /*노하우 컨텐츠*/
+    .knowhow_sect .img_wrap { width: 90%; margin: 3rem auto 0; }
+    .knowhow_sect .img_wrap .img + .img { margin-left: 15px; }
+
+    .nose05_5 .knowhow_sect .img_wrap { width: 100%; flex-direction: column; }
+    .nose05_5 .knowhow_sect .img_wrap .img { padding-top: 88%; }
+    .nose05_5 .knowhow_sect .img_wrap .img + .img { margin-left: 0; margin-top: 15px; }
+
+    .bg_table_box .tr { grid-template-columns: 73px minmax(0,1fr) minmax(0,1fr); }
+    .bg_table_box .tr > div:not(.th) { padding: 15px 10px; font-size: 13px; }
+
+
+    /*컨텐츠 상단 여백*/
+    .deformity_cont .sub_tab { margin-top: 60px; justify-content: center; }
+    .philtrum_container .sub_tab { margin-top: 60px; justify-content: center; }
+    .nose_container .sub_tab { margin-top: 60px; }
+    .scar_container .sub_tab { justify-content: center; }
+
+    .img_box_sect .cont .box .txt_box.active .txt br:not(.mo_only) { display: none; }
+
+    .side_sect .cir_map_wrap .cir_wrap .txt { bottom: 1.5rem; }
+    .side_sect .cir_map_wrap.left { margin: 8rem auto 0 !important; }
+
+    /*=======구순구개열=======*/
+    .top_img_sect .tit,
+    .sub_tit_wrap .tit,
+    .deformity_top > .tit { font-size: 18px; }
+    .deformity_top > .tit { word-break: keep-all; }
+    .deformity_top > .tit br { display: none; }
+
+    .current_33 .sub_tit_wrap .tit.top_tit { text-align: center; }
+    .cautions_sect .in3 { gap: 40px 0; }
+
+    .deformity_top .slide_wrap { margin-top: 40px; }
+
+
+    /*==========코성형==========*/
+    .nose_container > .sub_tit_wrap .tit { padding: 0 var(--grid_pd); }
+
+
+    /*기능코 성형*/
+    .nose_tab_cont.nose04 .tbl_wrap { width: calc(100% + 40px); margin-left: -20px; margin-right: -20px; overflow: auto; padding-bottom: 3px; padding-left: 20px; }
+    .nose_tab_cont.nose04 .tbl_wrap table { width: 800px; }
+
+    /*하위 탭*/
+    .sub_in_tab { width: 100%; margin: 20px auto 0; padding: 20px; overflow: auto; }
+    .sub_in_tab::-webkit-scrollbar { display: none; }
+    .sub_in_tab .tab { white-space: nowrap; font-size: 14px; }
+    .sub_in_tab .tab + .tab { margin-left: 25px; }
+
+    /*==========입술인중==========*/
+    .philtrum_container > .sub_tit_wrap .tit { padding: 0 var(--grid_pd); }
+
+
+    /*==========줄기세포==========*/
+    .side_sect.stem_anti .tbl_wrap { width: calc(100% + 20px); margin-right: -20px; overflow: auto; }
+    .side_sect.stem_anti .tbl_wrap table { width: 550px; }
+
+    /*=======게시판=======*/
+    .community_container .board_wrap { margin-top: 50px; }
+
+
+    /*탭*/
+    .side_inp_wrap .board_tab { margin-top: 5px; }
+    .board_tab { width: calc(100% + 40px); margin-left: -20px; margin-right: -20px; padding: 0 20px 5px; overflow: auto; }
+    .board_tab::-webkit-scrollbar { display: none; }
+    .board_tab .tab { white-space: nowrap; }
+
+    .case_tab_wrap .tab_depth2 { width: calc(100% + 20px); margin-right: -20px; overflow: auto; }
+
+    /*탑*/
+    .board_tab + .board_top { margin-top: 30px; }
+    .board_top .total { font-size: 12px; }
+    .board_top .sch_wrap { width: 200px; }
+
+    /*썸네일 게시판*/
+    .board_wrap.thumb .board_box { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 15px; }
+    .board_wrap.thumb .board_box .desc { font-size: 12px; line-height: 1.3; }
+    .board_wrap.thumb .board_box .tit { font-size: 15px; word-break: break-all; }
+
+    /*유튜브*/
+    .board_wrap.thumb .board_box.youtube { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    /*비포/애프터*/
+    .board_wrap.thumb.case .board_box { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .board_wrap.thumb.case .board_box .case_img + .tit_box { margin-top: 10px; }
+    .board_tab.depth + .board_top { margin-top: 10px; }
+
+    .board_wrap.thumb.case .box .case_img .img + .img { margin-left: 3px; }
+    .board_wrap.thumb.case .box.login .case_img .login_box { font-size: 12px; }
+    .board_wrap.thumb.case .box.login .case_img .login_box p { text-align: center; }
+    .board_wrap.thumb.case .box .case_img .login_box .btn { height: 4rem; line-height: 4rem; padding: 0 15px; margin-top: 10px; font-size: 14px; }
+
+    /*리얼스토리*/
+    .board_wrap.thumb.story .board_box { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 15px; }
+    .board_wrap.thumb .board_box .thumb + .tit_box { margin-top: 10px; }
+
+
+    /*리스트 게시판*/
+    .board_wrap.list .board_box .box { flex-direction: column; align-items: flex-start; padding: 20px 5px; }
+    .board_wrap.list .board_box .box .label { margin-right: 0; font-size: 13px; }
+    .board_wrap.list .board_box .box .label + .tit { margin-top: 5px; }
+    .board_wrap.list .board_box .box .tit { font-size: 15px; }
+    .board_wrap.list .board_box .box .util_wrap { margin-top: 20px; font-size: 12px; }
+    .board_wrap.list .board_box .box .util + .util { position: relative; margin-left: 14px; }
+    .board_wrap.list .board_box .box .util + .util:before { content: ''; position: absolute; left: -9px; top: 50%; width: 3px; height: 3px; border-radius: 100%; background-color: #BDBDBD; transform: translateY(-50%); }
+    .board_wrap.list .board_box .box .state { height: 20px; line-height: 20px; margin-right: 8px; padding: 0 8px 3px; font-size: 10px; font-weight: 600; }
+    .board_wrap.list .board_box .box .state.done { font-weight: 400; }
+    .board_wrap.list .board_box .box .state_wrap { display: flex; align-items: center; justify-content: flex-start; }
+    .board_wrap.list .board_box .box .state_wrap + .tit { margin-top: 6px; }
+
+    .side_sect .board_wrap.list .board_box .box .tit { font-size: 15px; }
+
+    /*비밀글*/
+    .board_wrap.list .board_box .box.secret .tit { padding-left: 20px; }
+    .board_wrap.list .board_box .box.secret .tit:before { width: 13px; height: 13px; }
+
+    /*faq*/
+    .board_wrap.list .board_box .faq_wrap .box { padding: 20px 30px 20px 5px; }
+    .board_wrap.list .board_box .faq_wrap .box:before { width: 2rem; height: 2rem; right: 5px; }
+    .board_wrap.list .board_box .faq_wrap .answer { padding: 20px 10px 30px; }
+    .board_wrap.list .board_box .faq_wrap .answer .a_box .ico { width: 3rem; height: 3rem; margin-right: 10px; font-size: 16px; }
+    .board_wrap.list .board_box .faq_wrap .answer .a_box .txt { margin-top: 0; }
+
+
+    /*페이지네이션*/
+    .board_wrap + .pagination { margin-top: 60px; }
+
+    /*뷰페이지*/
+    .board_view .tit_wrap { padding-bottom: 20px; }
+    .board_view .tit_wrap .tit { font-size: 18px; word-break: break-all; }
+
+    .board_view .view_wrap { min-height: 35rem; padding: 20px 0; }
+    .board_view .view_wrap .img + .txt { margin-top: 20px; }
+    .board_view .view_wrap .txt p { text-align: left; }
+    .board_view .view_wrap .txt p + p { margin-top: 20px; }
+    .board_view > .in3 > .btn_wrap { margin-top: 30px; }
+
+    .board_view .attach_wrap .attach_box { font-size: 12px; }
+
+    .board_view .question_wrap { padding: 20px 15px; }
+
+    /*이전글/다음글*/
+    .board_view .board_li_wrap .cont { margin-top: 50px; }
+    .board_view .board_li_wrap .box { width: 50%; }
+
+    .board_view .board_li_wrap .box .tit_box .desc { margin-bottom: 5px; font-size: 22px; line-height: 1.5; }
+    .board_view .board_li_wrap .box .tit_box .tit { -webkit-line-clamp: 1; font-size: 12px; word-break: break-all; }
+    .board_view .board_li_wrap .box.prev .tit_box .tit { margin-left: -35px }
+    .board_view .board_li_wrap .box.next .tit_box .tit { margin-right: -35px; }
+
+    .board_view .board_li_wrap .box .ico { width: 28px; height: 28px; flex-shrink: 0; background-size: 40% 40% !important; }
+    .board_view .board_li_wrap .box.next .ico { margin-left: 10px; }
+    .board_view .board_li_wrap .box.prev .ico { margin-right: 10px; }
+
+    .board_wrap .pagination { margin-top: 5rem; }
+
+    .board_wrap .board_box + .mo_grid { display: grid; }
+    .board_wrap .board_box + .mo_grid .btn_wrap { grid-row: 2; margin-top: 5rem; }
+    .board_wrap .board_box + .mo_grid .pagination { grid-row: 1; margin-top: 0; }
+
+    /*=========병원 소개=========*/
+
+    .top_img_sect .img { padding-top: 45%; }
+    .re_container .top_img_sect .img { padding-top: 68%; }
+    .top_img_sect + .board_wrap { margin-top: 60px; }
+
+    .intro_container .side_sect { padding: 60px var(--grid_pd) 0; }
+    .side_sect.sticky .sub_tit_wrap { position: relative; top: unset; }
+    /*.intro_container .side_sect.guide { padding: 0 var(--grid_pd) 0; }*/
+
+    .img_grid { gap: 3rem; }
+    .img_grid .img_wrap .swiper-container { padding: 0 0 0 5rem; margin-left: -3rem }
+
+    .side_sect .cont .num_grid { flex-direction: column; }
+    .side_sect .cont .num_grid .num { width: 40px; font-size: 30px; }
+    .side_sect .cont .num_grid .num_cont { margin-top: 20px; }
+
+    .side_sect .cont .img_box_wrap .box_wrap { gap: 40px 15px; }
+    .side_sect .cont .img_box_wrap .box_wrap .box .txt_box .tit + .txt { margin-top: 5px; font-size: 13px; }
+    .side_sect .cont .img_box_wrap .tit_box .tit + .txt { margin-top: 5px; font-size: 13px; }
+
+    .side_sect .cont .img_box_wrap .tit_box + .box_wrap.col2 { margin-top: 30px; }
+
+    .side_sect .cont .table_wrap { flex-direction: column; }
+    .side_sect .cont .table_wrap .txt_wrap { width: 100%; margin: 0 auto; }
+    .side_sect .cont .table_wrap .txt_wrap .txt_box {  }
+    .side_sect .cont .table_wrap .txt_wrap .img_box { width: 80%; margin: 40px auto 0; }
+    .side_sect .cont .table_wrap .txt_wrap .bg_table_box { margin-top: 10px; }
+    .side_sect .cont .table_wrap .img_wrap { width: 100%; }
+
+    .side_sect .cont .num_grid_wrap { margin-top: var(--sub_cont_pd); gap: 70px 15px; }
+    .side_sect .cont .num_grid .num_cont { height: 100%; }
+    .side_sect .cont .img_box_wrap { display: flex; flex-direction: column; justify-content: space-between; height: 100%; }
+    .side_sect .cont .img_box_wrap .tit_box .txt br:not(.mo_only) { display: none; }
+
+    .banner_sect .tit_box .txt br:not(.mo_only) { display: none; }
+    .banner_sect > .img { padding-top: 32%; }
+    .banner_sect > .txt { font-size: 28px; line-height: 1.2; margin-top: 10px; }
+
+    /*연혁*/
+    .sub_history_sect .history_wrap { width: 100%; flex-direction: column; }
+    .sub_history_sect .history_wrap .year { width: 100%; top: var(--hd_height); padding: 15px 0; font-size: 48px; z-index: 10; background-color: #fff; text-align: center; }
+    .sub_history_sect .history_wrap .year:before { display: none; }
+    .sub_history_sect .history_wrap .year span:before { display: none; }
+    .sub_history_sect .history_wrap .txt_box { width:100%; margin-left: 0; margin-top: 30px; }
+    .sub_history_sect .history_wrap .txt_box .box { font-size: 24px; }
+    .sub_history_sect .history_wrap .txt_box .box .txt { margin-top: 6px; font-size: 15px; }
+    .sub_history_sect .history_wrap .txt_box .box .txt span + .img { margin-top: 10px; }
+
+    /*치료보증제도*/
+    .side_sect.guarantee .cont .tbl_wrap th,
+    .side_sect.guarantee .cont .tbl_wrap td { font-size: 13px; }
+    .side_sect.guarantee .cont .li_wrap .tit { font-size: 16px; }
+
+    /*진료안내/오시는 길*/
+    .side_sect.guide .cont { grid-template-columns: minmax(0, 1fr); gap: 30px 0; }
+    .side_sect.guide .cont .wrap { grid-template-columns: 40% minmax(0, 1fr); gap: 15px; }
+    .side_sect.guide .cont .wrap .txt_box .num + .btn_wrap { margin-top: 20px; }
+    .side_sect.guide .cont .wrap > .tit { font-size: 16px; }
+    .side_sect.guarantee .cont .img { padding-top: 58%; }
+
+    .side_sect.guarantee .cont .tbl_wrap { width: calc(100% + 40px); margin: 6rem -20px 0; padding-left: 20px; overflow: auto; }
+    .side_sect.guarantee .cont .tbl_wrap::-webkit-scrollbar { display: none; }
+    .side_sect.guarantee .cont .tbl_wrap table { width: 530px; }
+    .side_sect.guarantee .cont .tbl_wrap table .guarantee_col3 { width: 64% !important; }
+
+    .wide_side_sect .cont.slide { margin-left: 2.5rem; }
+    .wide_side_sect .cont.slide .paging { left: -0.5em; font-size: 12px; }
+
+    .wide_side_sect.guide_map { padding: var(--sub_cont_pd2) var(--grid_pd) 0; }
+
+    .wide_side_sect .cont.guide_map { grid-template-columns: minmax(0, 1fr); gap: 30px 0; padding-right: 0; }
+
+    .wide_side_sect .cont.guide_map .txt_wrap { grid-column: 1; grid-row: auto; }
+    .wide_side_sect .cont.guide_map .txt_wrap .wrap .box_wrap { flex-direction: column; }
+    .wide_side_sect .cont.guide_map .txt_wrap .wrap .box_wrap .box + .box { margin-left: 0; margin-top: 20px; }
+    .wide_side_sect .cont.guide_map .txt_wrap .wrap .txt_box .cir:before { margin-top: -0.2em; }
+
+    .video_cont_sect .cont .tit p .ico { font-size: 3.1rem; }
+
+
+    /*마이페이지*/
+    .mypage_wrap { padding-top: 60px; }
+
+    .side_inp_wrap .inp_box { flex-direction: column; }
+    .side_inp_wrap .inp_box + .inp_box { margin-top: 30px; }
+    .side_inp_wrap .inp_box .tit { width: 100%; line-height: 1em; }
+    .side_inp_wrap .inp_box .tit + .inp { margin-top: 10px; }
+    .side_inp_wrap .inp_box .tit + .addr_wrap { margin-top: 10px; }
+    .inp_box .tit .required:before { transform: translate(-120%, 20%); }
+    .side_inp_wrap .inp_box + .inp_desc { margin-left: 0; }
+    .side_inp_wrap .captcha_wrap { margin-top: 5px; margin-left: 0; }
+    .side_inp_wrap .captcha_wrap .img { max-width: 30%; }
+    .side_inp_wrap .captcha_wrap .captcha { margin-left: 5px; }
+
+    .side_inp_wrap .attach_wrap .attach_box .ico { width: 1.6rem; height: 1.6rem; margin-right: 4px; margin-top: -1px; }
+
+    .side_inp_wrap .inp_box .chg_pwd { margin-top: 10px; }
+    .side_inp_wrap .inp_box .chg_pwd .inp_btn { max-width: 17rem; }
+
+    .mypage_btm { gap: 20px 0; margin-top: 20px; }
+    .mypage_btm .wrap { grid-row: 1; }
+    .mypage_btm .btn_wrap { grid-row: 2; grid-column: 2 / 3; }
+
+    /*수술 전 주의사항*/
+    .cautions_sect .cont .txt_wrap .box + .box { margin-top: 20px; }
+    .cautions_sect .cont .txt_wrap .txt_box .tit + .txt { margin-top: 5px; }
+
+
+    /*======이용약관 / 개인정보처리방침 / 비급여항목======*/
+    .terms_cont,
+    .non_benefit_wrap { padding-top: 50px; }
+
+    .terms_cont .in4 > .tit,
+    .non_benefit_wrap .in4 > .tit { padding-bottom: 50px; }
+
+    .non_benefit_wrap .tbl_wrap { width: 100%; overflow: auto; }
+
+    .community_container,
+    .cautions_sect,
+    .intro_container,
+    .board_view,
+    .non_benefit_wrap,
+    .terms_cont,
+    .mypage_wrap,
+    .allsch_container { padding-bottom: 8rem; }
+
+    .non_benefit_wrap .tbl_wrap { width: calc(100% + 20px); margin-right: -20px; }
+
+    /*줄기세포*/
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box { padding: 20px 10px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .tit_box span { height: 4rem; line-height: 4rem; padding: 0 3rem; font-size: 14px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .stem_ico { margin-top: 20px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .stem_ico .stem { width: 38%; margin-right: 10px; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .stem_ico .stem img { width: 85%; z-index: 10; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .stem_ico .stem .arr { width: 40%; z-index: 5; }
+    .side_sect .cont .num_txt_cont .wrap.banner > .txt_wrap .stem_box .stem_ico .label_wrap .label { font-size: 12px; }
+
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont { grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 30px 0; }
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont .box { grid-template-columns: 45px minmax(0, 1fr); gap: 5px 10px; }
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont .box .ico { width: 45px; height: 45px; font-size: 22px; }
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont .box .tit { font-size: 2rem; }
+
+    .side_sect .cont .num_txt_cont .wrap .bg_img { width: 100%; }
+
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .vs { display: none; }
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .img_box:last-of-type { margin-left: 2px; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.col2 { width: 100%; gap: 3rem 0.8rem; }
+    .side_sect.stem_anti .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.col2 { gap: 8px; }
+
+
+    .side_sect .cont .num_txt_cont .wrap > .txt_wrap .bg_img .img_box .label { height: 25px; line-height: 25px; padding: 0 10px; white-space: nowrap; font-size: 11px; }
+
+    .stem_count_wrap { gap: 0.7rem 0; }
+    .stem_count_wrap .top { grid-column: 1 / 3; margin-bottom: 0; }
+    .stem_count_wrap .top .logo_txt { font-size: 1.4rem; align-items: flex-end; }
+    .stem_count_wrap .top .logo_txt .logo { height: 2.7em }
+
+    .stem_count_wrap .bg_table_box { grid-column: 1 / 3; grid-row: 2; }
+    .bg_table_box .th { font-size: 14px; }
+    .bg_table_box.type2 .th { display: flex; align-items: center; justify-content: center; }
+    .bg_table_box.type2 .tr > div:not(.th) { padding: 15px 8px; }
+    .bg_table_box.type2 .txt { word-break: break-all; }
+
+    .stem_count_wrap .chart_box { grid-column: 1 / 3; grid-row: 3; padding: 3rem 2rem; }
+
+    .side_sect .cont .num_txt_cont > .wrap.lifting { gap: 8px; }
+    .side_sect .cont .num_txt_cont > .wrap.lifting > .txt_wrap .txt + * { margin-top: 1rem; }
+    .side_sect .cont .num_txt_cont > .wrap.lifting > .txt_wrap + .tit_wrap { margin-top: var(--sub_cont_pd3); }
+
+    .side_sect .cont > .cir_grid .cir .txt_box .ico { font-size: 3.5rem; }
+    .side_sect .cont > .cir_grid .cir .txt_box .tit { margin-top: 1rem; }
+    .side_sect .cont > .cir_grid .cir .txt_box .txt { margin-top: 0; }
+
+    .side_sect .cont .num_txt_cont > .wrap.scar > .txt_wrap .img_wrap.col4 { gap: 2px; }
+
+    .side_sect .cont .num_txt_cont > .wrap .ico_txt_cont.col3 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+
+
+
+    /*유튜브 바로가기 배너*/
+    .video_cont_sect { padding-top: 35%; margin-top: var(--sub_cont_pd3); background: url('/img/sub_content_bg_mo.jpg')center/cover no-repeat; }
+    .video_cont_sect:before { background-color: rgba(0,0,0,0.15) }
+    .video_cont_sect .cont .btn_wrap { margin-top: 30px; }
+    .video_cont_sect + .txt_flow { margin-top: 0; line-height: 1; }
+    .video_cont_sect + .txt_flow + * { margin-top: 60px; }
+
+    /*온라인상담 바로가기 배너*/
+    .btm_banner_sect { padding: 4rem 0; overflow: hidden; }
+    .btm_banner_sect .cont .illu { top: -5rem; right: -3rem; height: 22rem; }
+    .btm_banner_sect .cont .tit { font-size: 16px; }
+    .btm_banner_sect .cont .txt { font-size: 16px; }
+
+    /*하단배너*/
+    #sub .guarantee_banner { padding-top: 28%; background: url('/img/sub_footer_bg_mo.jpg')63%/cover no-repeat; }
+    #sub .guarantee_banner .btm_sect .cont { display: none; }
+    #sub .guarantee_banner:before { background-color: rgba(0,0,0,0.4) }
+    #sub .btm_sect.guarantee { grid-template-columns: minmax(0, 1fr); }
+    #sub .btm_sect.guarantee .aside { display: flex; align-items: flex-start; justify-content: flex-start; flex-direction: column; }
+    #sub .btm_sect.guarantee .aside .btn_wrap { margin-left: 1px; }
+    #sub .btm_sect .aside .btn_wrap { margin-top: 1rem; }
+
+    .nose_new_video .cont { flex-direction: column }
+    .nose_new_video .tit_wrap { width: 100%; }
+    .nose_new_video .video_wrap { width: 100%; margin-top: 20px; }
+
+    .nose_new_side { margin-top: 80px; }
+    .nose_new_side .cont { flex-direction: column }
+    .nose_new_side .cont .img_wrap { width: 100%; z-index: 10; }
+    .nose_new_side .cont .img_wrap:before { content: ''; position: absolute; left: 0; top: 5px; width: 100%; height: 85px; transform: translateY(-100%); background-color: #fff; }
+    .nose_new_side .cont .txt_wrap { width: 100%; padding-bottom: 0; }
+    .nose_new_side .cont .txt_wrap .txt_box + .txt_box { margin-top: 100px; }
+
+    .nose_new_side .cont .txt_wrap .txt_box .txt br { display: none }
+    .nose_new_video .video_wrap .video_box .thumb .play { width: 50px; height: 50px; }
+
+}
+
+/*768px ~ */
+@media screen and (max-width: 768px) {
+
+    .sub_top.parent_35 .in3,
+    .sub_top.parent_43 .in3 { height: 26vw; }
+}
+
+@media screen and (max-width: 600px) {
+
+    .sub_top.parent_35 .in3,
+    .sub_top.parent_43 .in3 { height: 26vh; }
+
+    .sub_top .in3 { height: 56vh; }
+    .sub_top .cont { height: 46%; padding-bottom: 20px; }
+
+    /*구순구개열*/
+    .sub_top.parent_2 .bg_img .img { background: url('/img/sub_banner01_mo.jpg') center/cover no-repeat; }
+    /*코재수술*/
+    .sub_top.parent_53 .bg_img .img { background: url('/img/sub_banner54_mo.jpg') center/cover no-repeat; }
+    /*코성형*/
+    .sub_top.parent_6 .bg_img .img { background: url('/img/sub_banner02_mo.jpg') center/cover no-repeat; }
+    /*입술인중*/
+    .sub_top.parent_12 .bg_img .img { background: url('/img/sub_banner03_mo.jpg') center/cover no-repeat; }
+    /*줄기세포*/
+    .sub_top.parent_15 .bg_img .img { background: url('/img/sub_banner04_mo.jpg') center/cover no-repeat; }
+    /*흉터관리*/
+    .sub_top.parent_19 .bg_img .img { background: url('/img/sub_banner05_mo.jpg') center/cover no-repeat; }
+    /*비포에프터*/
+    .sub_top.parent_22 .bg_img .img { background: url('/img/sub_banner06_mo.jpg') center/cover no-repeat; }
+    /*커뮤니티*/
+    .sub_top.parent_28 .bg_img .img { background: url('/img/sub_banner07_mo.jpg') center/cover no-repeat; }
+    /*커뮤니티_리얼스토리*/
+    .sub_top.parent_28.current_31 .bg_img .img { background: url('/img/sub_banner07_1_mo.jpg') center/cover no-repeat; }
+
+    .side_sect .cont > .cir_grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); flex-direction: column; }
+    .side_sect .cont > .cir_grid .cir { position: relative; width: 100%; height: unset; padding-top: 100%; }
+    .side_sect .cont > .cir_grid .cir:nth-of-type(1) { grid-column: 1 / 3; }
+    .side_sect .cont > .cir_grid .cir:nth-of-type(2) { grid-column: 3 / 5; }
+    .side_sect .cont > .cir_grid .cir:nth-of-type(3) { grid-column:  2 / 4; margin-top: -13.5%; }
+    .side_sect .cont > .cir_grid .cir .txt_box { position: absolute; left: 50%; top: 50%; height: auto; transform: translate(-50%, -50%); }
+
+    .side_sect .cont > .cir_grid .cir .plus { display: none; }
+
+    .sub_tit_wrap + .cont { margin-top: 40px; }
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap .tit + .sub_txt { margin-top: 5px; }
+    .side_sect .cont .num_txt_cont > .wrap .sub_txt { margin-bottom: 20px; }
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap .tit + .txt { margin-top: 5px; }
+
+    .re_sub_cont .tit_wrap + .chk_li_cont,
+    .side_sect .cont .num_txt_cont > .wrap > .tit_wrap + .chk_li_wrap,
+    .nose_tab_cont.nose04 .tit_wrap + .tbl_wrap,
+    .side_sect .cont .tit_wrap + .bg_img_compare,
+    .side_sect .cont .num_txt_cont .wrap .tit_wrap + .bg_img{ margin-top: 20px; }
+
+    .side_sect .cont .bg_img_compare { grid-template-columns: minmax(0, 1fr); margin: 25px 0 0; }
+
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid .cir { width: calc(100%/2); height: unset; padding-top: calc(100%/2); }
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .cir_grid.arr .cir { width: calc(100%/2); height: unset; padding-top: calc(100%/2); }
+
+    .side_sect .cont .num_txt_cont > .wrap > .ico_wrap { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 25px 5px; align-items: flex-start; margin-top: 20px; }
+    .side_sect .cont .num_txt_cont > .wrap .ico_wrap .ico_box { padding: 0 10px; }
+
+    .side_sect .cont .num_txt_cont > .wrap .img_wrap.col3,
+    .side_sect .cont .num_txt_cont > .wrap .img_wrap.col4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+    .side_sect .cont .num_txt_cont .wrap .bg_img.center { width: 100%; margin-left: 0; padding-bottom: 0; }
+    .side_sect .cont .num_txt_cont .wrap .bg_img.center .img_box + .img_box { margin-left: 3rem; }
+
+    .side_sect.stem_anti .cont .num_txt_cont > .wrap .img_wrap { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    .side_sect.stem_anti .cont .num_txt_cont > .wrap .img_wrap { width: 100%; grid-template-columns: repeat(1, minmax(0, 1fr)); margin-top: 10px; gap: 10px 0; }
+
+    .side_sect .cont .num_txt_cont > .wrap .img_side { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+    .side_sect .cont .num_txt_cont > .wrap .img_side .txt_box { margin-top: 15px; }
+
+    .nose05_1 .side_sect .cont .bg_img_compare { gap: 35px 0; }
+
+    /*하단 배너*/
+    #sub .guarantee_banner { padding-top: 58%; }
+    #sub .btm_sect.guarantee .aside { justify-content: space-between; }
+
+    /*유튜브 배너*/
+    .video_cont_sect { padding-top: 60%; }
+
+    /*풀 가이드 이미지*/
+    .img_box_sect .cont { grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 40px 0; }
+
+    /*유형별 컨텐츠*/
+    .compare_slide_sect .cont ul li .img_wrap .box { max-width: 100%; }
+
+    /*원그래프 컨텐츠*/
+    .nose_tab_cont .side_sect .cir_map_wrap,
+    .nose_tab_cont .side_sect .cir_map_wrap.col2 { width: 100%; }
+
+    /*원그래프 컨텐츠*/
+    .side_sect .cir_map_wrap { width: 100%; margin: 40px auto 0 !important }
+    .side_sect .cir_map_wrap.none_tit { margin: 0 auto 0 !important }
+    .side_sect .cir_map_wrap.left { margin: 40px auto 0 0 !important }
+    .side_sect .cir_map_wrap .cir_wrap { padding-bottom: 35px; }
+    .side_sect .cir_map_wrap .cir_wrap:after,
+    .side_sect .cir_map_wrap .cir_wrap:before { top: calc(27% - 2rem); height: 80%; }
+    .side_sect .cir_map_wrap .cir_wrap .cir span,
+    .side_sect .cir_map_wrap .cir_wrap + .cir_txt span { font-size: 1.8rem; }
+    .side_sect .cir_map_wrap .cir_wrap + .cir_txt { width: 100%; margin-top: 50px; transform: unset; }
+    .side_sect .cir_map_wrap .cir_wrap + .cir_txt .line { height: 35px; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir { position: relative; width: calc(100%/2 + 0.50rem); padding-top: calc(100%/2 + 0.50rem); border-radius: 100%; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-of-type(n+3) { margin-top: -1rem; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir:not(:nth-of-type(4n+1)) { margin-left: 0; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir:not(:nth-of-type(2n+1)) { margin-left: -1rem; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-of-type(2n+1):before { content: ''; position: absolute; left: 0; top: 50%; width: 1rem; height: 1rem; border: 1px solid #3C3C3C; transform: translate(-50%, -50%); background-color: #fff; z-index: 10; }
+    .side_sect .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-of-type(2n):before { content: ''; position: absolute; right: 0; top: 50%; width: 1rem; height: 1rem; border: 1px solid #3C3C3C; transform: translate(50%, -50%); background-color: #fff; z-index: 10; }
+
+    .nose03 .side_sect .cir_map_wrap .cir_wrap { padding-bottom: 85px; }
+    .nose03 .side_sect .cir_map_wrap.col3 .cir_wrap:before,
+    .nose03 .side_sect .cir_map_wrap.col3 .cir_wrap:after { top: calc(38% - 2rem); height: 75%; }
+
+    .nose_tab_cont .side_sect .cir_map_wrap,
+    .nose_tab_cont .side_sect .cir_map_wrap.col2 { width: 100%; }
+
+    /*줄기세포 원그래프*/
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap {  }
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir { width: calc(100%/3 + 0.60rem); padding-top: calc(100%/3 + 0.60rem); }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-of-type(n+3) { margin-top: 0; }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-of-type(n+4) { margin-top: -1rem; }
+
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir:before { display: none; }
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir:nth-child(1):before,
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir:nth-child(6):before { display: block !important; right: unset; left: 0; transform: translate(-50%, -50%); }
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir:nth-child(3):before,
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap .cir:nth-child(8):before { display: block !important; left: unset; right: 0; transform: translate(50%, -50%); }
+
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:not(:nth-of-type(2n+1)) { margin-left: 0; }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:not(:nth-of-type(3n+1)) { margin-left: -1rem; }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-child(4) { margin-left: calc((100%/3 + 0.60rem - 1rem)/2);}
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-child(6) { margin-left: 0; }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-child(7) { margin-left: -1rem; }
+    .side_sect.stem_anti .cir_map_wrap:not(.col3) .cir_wrap .cir:nth-child(3) ~ .cir { margin-top: -4%; }
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap:before,
+    .side_sect.stem_anti .cir_map_wrap .cir_wrap:after { top: calc(20% - 2rem); height: 90%; }
+
+    /*박스 텍스트 아이콘*/
+    .side_sect .cont .box_ico_cont { grid-template-columns: minmax(0, 1fr); gap: 12px 20px; width: 100%; }
+    .side_sect .cont .box_ico_cont.col2 { grid-template-columns: minmax(0, 1fr); }
+
+    /*이미지 라인 컨텐츠*/
+    .side_sect .cont .num_txt_cont > .wrap > .txt_wrap .img_wrap.col2.line { grid-template-columns: minmax(0, 1fr); width: 100%; gap: 30px 0; }
+
+    /*컨텐츠 이미지*/
+    .side_sect .cont_img_wrap { grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 60px 0; }
+    .side_sect .cont_img_wrap .img_box .tit_wrap { margin-top: 10px; }
+    .side_sect .cont_img_wrap .img_box .tit_wrap .txt { margin-top: 5px; }
+
+    .scar_container .side_sect .cont_img_wrap { grid-template-columns: repeat(1, minmax(0, 1fr)); gap: 60px 0; }
+
+    .philtrum_tab_cont.philtrum02 .side_sect .cont .main_txt + .img_wrap.col4 { grid-template-columns: repeat(1, minmax(0, 1fr)); }
+
+    /*병원 소개*/
+    .intro_container .side_sect .cont .img_wrap { flex-direction: column; }
+    .intro_container .side_sect .cont .img_wrap .img { width: 100%; }
+    .intro_container .side_sect .cont .img_wrap .img + .img { margin-top: 30px; }
+    .intro_container .banner_sect + .img_box_sect { padding-top: 80px; }
+
+    .img_grid { grid-template-columns: minmax(0, 1fr); gap: 25px 0; padding: 0 var(--grid_pd); }
+    .img_grid .img_wrap .swiper-container { width: calc(100% + 2rem); padding: 0 0 0 4rem; margin-left: -2rem; }
+    .img_grid .img_wrap .paging { left: 3rem; font-size: 12px; }
+    .img_grid .sub_tit_wrap { grid-row: 1; grid-column: 1 / 3; }
+    .img_grid .img_wrap { grid-row: 2; grid-column: 1 / 3; }
+    .img_grid .img_wrap.wide { width: calc(100% + 40px); margin: 0 -20px; }
+    .img_grid .txt_li { grid-row: 3; grid-column: 1 / 3; }
+    .img_grid .txt_li li .txt { font-size: 13px; }
+
+    .img_grid .txt_wrap { width: 100%; }
+    .img_grid .txt_wrap .tit + .txt { margin-top: 15px; }
+    .img_grid .txt_wrap .name { margin-top: 25px; }
+    .intro_dr_sect .history_wrap .txt + .txt { margin-top: 5px; }
+
+    .banner_sect > .img { padding-top: 58%; }
+
+    /*원장님 소개*/
+    .intro_dr_sect { grid-template-columns: minmax(0, 1fr); padding: var(--sub_cont_pd) var(--grid_pd) 0; gap: 30px 0; }
+    .intro_dr_sect .tit_wrap { grid-row: 1; }
+    .intro_dr_sect .history_wrap { grid-row: 2 }
+    .intro_dr_sect .history_wrap .tit { margin-bottom: 10px; }
+    .intro_dr_sect .img_wrap { grid-row: 3 }
+    .intro_dr_sect .img_wrap .tit { font-size: 28px; }
+
+    /*공통*/
+    .img_box_sect .cont .box { align-items: flex-start; flex-direction: column; }
+    .img_box_sect .cont .box + .box { margin-top: 50px; }
+    .img_box_sect .cont .box .img { order: 1; width: 100%; padding-top: 50%; }
+    .img_box_sect .cont .box .txt_box { order: 2; width: 100%; margin-top: 15px; }
+    .img_box_sect .cont .box:nth-of-type(odd) .txt_box { margin-left: 0; }
+    .img_box_sect .cont .box:nth-of-type(even) .txt_box { margin-right: 0; }
+
+    .img_box_sect .cont .box .txt_box .desc { font-size: 11px; }
+    .img_box_sect .cont .box .txt_box .tit { margin-top: 5px; }
+    .img_box_sect .cont .box .txt_box .tit + .txt { margin-top: 8px; }
+    .img_box_sect .cont .box .txt_box .txt { word-break: keep-all; }
+    .img_box_sect .cont .box .txt_box .txt br:not(.mo_only) { display: none; }
+
+
+}
+
+
